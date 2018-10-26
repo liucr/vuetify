@@ -65,6 +65,7 @@ export default Vue.extend({
       type: Boolean,
       default: true
     },
+    dense: Boolean,
     disabled: Boolean,
     fullWidth: Boolean,
     maxHeight: { default: 'auto' },
@@ -149,7 +150,7 @@ export default Vue.extend({
       }
     },
     tileHeight () {
-      return this.dense ? 36 : 48
+      return this.dense ? 40 : 48
     }
   },
 

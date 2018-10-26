@@ -207,6 +207,7 @@ export default {
       }
 
       return {
+        dense: this.dense,
         ...defaultMenuProps,
         value: this.menuCanShow && this.isMenuActive,
         nudgeBottom: this.nudgeBottom
